@@ -24,7 +24,7 @@ export default function Navbar({setIsAboutMe, setIsHome, setIsProjects}) {
         <Box shadow='xl'>
             <Flex p=' 0.5rem 1rem' justify='space-between'>
                 <HStack>
-                    <Image src='./profile-pic.JPG' borderRadius='full' boxSize={['2rem','4rem']}/>
+                    <Image src='./profile-pic.JPG' borderRadius='full' boxSize={['2rem','4rem']} alt='profile-pic'/>
                     <Heading size={['md', '2xl']}>Samuel Wheeler</Heading>
                     <Show above='md'>
                         <Text fontSize='xl' p='1rem'>Web3 Developer</Text>

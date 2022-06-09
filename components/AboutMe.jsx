@@ -4,7 +4,7 @@ export default function AboutMe() {
     return (
         <Box p={['1rem','2rem 18rem']}>
             <Stack align='center' spacing='2rem' direction={['column', 'row']}>
-                <Image src='./profile-pic.JPG' boxSize={['xs','lg']}/>
+                <Image src='./profile-pic.JPG' boxSize={['xs','lg']} alt='profile-pic'/>
                 <VStack>
                     <Text>
                         Hi! My name is Samuel Wheeler and I'm a web3 software developer with a focus on DeFi.
